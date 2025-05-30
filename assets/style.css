@@ -1,20 +1,39 @@
 #container {display: flex;}
 
+
 .cartao {
     margin: 1rem 1rem;
-    background-color: aquamarine;
-    height: 20rem;
+    background-color: rgb(56, 168, 33);
+    height: auto;
+    width: 100%;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
+.cartao p {
+    text-align: left;
+    padding: 0.5rem;
+    font-family: 'Minecraftia' ;
+    font-size: 0.8rem;
+}
+
+.cartao h3 {
+    font-family: 'Minecraft', sans-serif;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    color: rgb(40, 68, 197);
+}
+
 body {
-    background-color: bisque;
+    background-color: rgb(34, 85, 54);
     font-family: Bai Jamjuree;
 }
 
 footer {
     background-color: black;
-    color: rgb(236, 236, 236);
+    color: rgb(214, 214, 214);
     position: fixed;
     bottom: 0;
     width: 100%;
