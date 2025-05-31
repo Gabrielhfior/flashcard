@@ -1,34 +1,58 @@
-#container {display: flex;}
+:root {
+    --text-color: #000000;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
 
 
 .cartao {
     margin: 1rem 1rem;
     background-color: rgb(56, 168, 33);
+    background: url(img/wp8643250-minecraft-blocks-wallpapers.jpg);
     height: auto;
     width: 100%;
     flex-grow: 1;
-    flex-basis: calc(33% -6rem);
+    flex-basis: calc(33% - 6rem);
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    
 }
-.cartao p {
-    text-align: left;
+.cartao__conteudo p {
+    display: block;
+    text-align: center;
     padding: 0.5rem;
     font-family: 'Minecraftia' ;
-    font-size: 0.8rem;
+    font-size: 1.7vw;
+
+}
+.cartao__conteudo__pergunta {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Minecraftia' ;
+    font-size: 1.7vw;
+    margin: rem;
 }
 
-.cartao h3 {
+
+.cartao__conteudo h3 {
     font-family: 'Minecraft', sans-serif;
     text-align: left;
     padding: 0.5rem;
-    font-size: 1.6rem;
-    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 3.4vw;
+    color: var(--text-color);
+    border: 1px solid var(--card-front-color);
+    margin: 0.6rem;
 }
 
-body {
+body { 
+ 
     font-family: Bai Jamjuree;
+    background: url('img/fundo.png');
 }
+
+#container {display: flex;}
 
 footer {
     background-color: black;
