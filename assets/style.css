@@ -39,6 +39,15 @@ body {
     font-size: 1.9vw;
     margin: 0.6rem;
 }
+.cartao__conteudo__resposta p {
+    background-color: rgb(34, 18, 34);
+    color: rgb(255, 90, 255);
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.6rem;
+    border: 5px solid rgb(46, 8, 105);
+
+}
 
 .cartao__conteudo h3 {
     background-color: rgb(160, 160, 160);
@@ -50,8 +59,8 @@ body {
     color: var(--text-color);
     margin: 0.6rem;
     border: 2px solid rgb(98, 100, 95);
-    border-radius: 0.5rem;
 }
+
 
 
 
