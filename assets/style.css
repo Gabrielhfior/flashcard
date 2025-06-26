@@ -1,4 +1,4 @@
-:root {
+    :root {
     --text-color: #000000;
     --card-front-color: #000000;
     --card-back-color: #00F4BF;
@@ -8,7 +8,12 @@ body {
     background: url('img/fundo.png');
 }
 
-#container {display: flex;}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem;
+    gap: 2rem;}
 
 .cartao {
     margin: 1rem 1rem;
